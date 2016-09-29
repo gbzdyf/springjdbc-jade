@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <!-- 基本配置 -->
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>springjdbc-jade</artifactId>
+    <packaging>jar</packaging>
+    <name>springjdbc-jade</name>
+
+    <parent>
+        <groupId>net.jade</groupId>
+        <artifactId>springjdbc-jade-parent</artifactId>
+        <version>2.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <!-- 开发人员说明 -->
+    <developers>
+        <developer>
+            <name>hugoDD</name>
+            <email>doudgut@hotmail.com</email>
+        </developer>
+        
+    </developers>
+
+    <dependencies>
+        <dependency>
+            <groupId>net.jade</groupId>
+            <artifactId>springjdbc-load</artifactId>
+			 <version>2.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-jexl</groupId>
+            <artifactId>commons-jexl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+        </dependency>
+    </dependencies>
+
+
+</project>
